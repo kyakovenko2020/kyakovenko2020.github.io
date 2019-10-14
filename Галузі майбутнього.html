@@ -6,19 +6,67 @@
 	<link rel="stylesheet" type="text/css" href="tab.css">
 	<style type="text/css">
 		h1{
-			color: blue;
+			color: purple;
 			font: 20pt;
 		}
 		body{
-			background-color: lightyellow;
+			background: linear-gradient(to top, #FFB6C1, #FF69B4);
 		}
 		img{
 			width: 30%;
 		}
+		div{
+			
+		position: fixed;
+		right: 0%;
+		bottom: 0%;
+		}
+		.pp{
+			width: 40px;
+			height: 40px;
+			
+			
+		}
+		li{
+			font-size: 18px;  }
+		*{
+			box-sizing: border-box;
+		
+		}
+		.wrapper{
+			position: fixed;
+			height: 200px;
+			width: 80%;
+			margin: 20px;
+			border: 2px solid red;
+		}
+		.card{
+			width: 30%;
+			height: 200px;
+			border: 2px solid grey;
+			float: left;
+			margin: 0 1,5%;
+			border-radius: 20px;
+			overflow: hidden;
+
+		}
+		h1{
+			text-align: center;
+		}
+		.card>p{
+			margin-left: 10px;
+		}
+
 	</style>
 </head>
 <body>
-	<h1>Галузі майбутнього</h1>
+	<h1 id="ppp">Галузі майбутнього</h1>
+	<div class="wrapper">
+		<div class="card"><img src="https://st2.depositphotos.com/1020091/11916/v/950/depositphotos_119163742-stock-illustration-lawyer-man-icon.jpg"><h1>Професії майбутнього</h1><p>Дізнайтеся більше про професії майбутнього тут</p></div>
+		<div class="card"><img src="https://st2.depositphotos.com/5682790/10019/v/950/depositphotos_100190130-stock-illustration-builder-construction-worker-icon.jpg"><h1>Професійні навички</h1><p>Дізнайтеся більше про професійні навички XXI століття  тут</p></div>
+		<div class="card"><img src="https://image.freepik.com/free-vector/_24911-5123.jpg"><h1>Моє резюме</h1><p>Дізнайтеся більше про мене тут</p></div>
+
+	</div>
 	<ul>
 		<li>Модератор;</li><img src="https://webmasterie.ru/wp-content/uploads/2018/06/Moderator.jpg">
 		<li>Розробник освітніх траекторій;</li>
@@ -37,9 +85,12 @@
 		<li>Метеоенергетик;</li>
 		<li>ІТ-генетик;</li>
 	</ul>
+	<div> <a href="#ppp"><img class="pp" src="http://s1.iconbird.com/ico/2014/1/598/w512h5121390846468upcircular512.png"></a></div>
 	<hr>
 	<a href="Мій вибір.html">Мій вибір</a><br>
 	<a href="Набір професійних якостей.html">Набір професійних якостей</a>
+	<a href="https://life.pravda.com.ua/columns/2019/02/19/235691/" target="_blank">Джерело інформації</a>
+
 	
 </body>
 </html>
